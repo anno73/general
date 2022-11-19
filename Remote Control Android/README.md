@@ -8,7 +8,7 @@ IP and port change with every restart. Find the current settings programatically
 
 `bst.instance.{someInstance}.status.adb_port="51013"` gives the current port in use. IP seems to be always 127.0.0.1.
 
-## adb
+### adb
 
 ```
 adb start-server
@@ -20,6 +20,10 @@ adb connect 127.0.0.1 BlueStacksPort
 
 ### Android
 
+#### droidVNC-NG
+
+https://github.com/bk138/droidVNC-NG
+
 Install droidVNC-NG from playstore
 
 Package name: net.christianbeier.droidvnc_ng
@@ -28,13 +32,38 @@ Package name: net.christianbeier.droidvnc_ng
 adb shell cmd package list packages -3
 adb uninstall net.christianbeier.droidvnc_ng
 ```
+### Python
 
+#### vncdotool
 Python: vncdotool - https://vncdotool.readthedocs.io/en/latest/library.html
 
 Gets me one image per second.
 
+#### asyncvnc
 
-## pyautogui
+https://github.com/barneygale/asyncvnc
 
-## OpenCV
+#### pyVNC
+
+https://github.com/cair/pyVNC
+
+
+## Windows Desktop - Python
+
+How to perform a pinch-zoom gesture?
+
+Fast screenshot capture.
+
+Single instance and can only run in foreground (https://www.youtube.com/watch?v=J3fatZ2OVIU).
+
+### OpenCV
+
+Great [OpenCV Object Detection in Games](https://www.youtube.com/watch?v=KecMlLUuiE4&list=PL1m2M8LQlzfKtkKq2lK5xko4X-8EZzFPI) tutorial on Youtube from [Learn Code By Gaming](https://www.youtube.com/@LearnCodeByGaming)
+
+Beware - search for images generated from the corresponding source. Take a screenshot on desktop to extract templates from there. Do not use screenshot from within emulator or adb.
+
+
+### pyautogui
+
+
 
