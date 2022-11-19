@@ -6,7 +6,7 @@ Settings->Advanced->Android Debug Bridge->Connect to Android at IP:Port
 
 IP and port change with every restart. Find the current settings programatically in `C:/ProgramData/BlueStacks_nxt/bluestacks.conf`. Search for `bst.instance.{someInstance}.display_name="BlueStacks Window name"`.
 
-`bst.instance.{someInstance}.status.adb_port="51013"` gives the current port in use. IP seems to be always 127.0.0.1.
+`bst.instance.{someInstance}.status.adb_port="{BlueStacksPort}"` gives the current port in use. IP seems to be always 127.0.0.1.
 
 ### adb
 
