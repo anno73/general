@@ -15,8 +15,18 @@ adb start-server
 adb connect 127.0.0.1 BlueStacksPort
 ```
 
+## ADB
+
+How to execute pinch-zoom gesture?
+
+### Pure Python ADB
+
+https://pypi.org/project/pure-python-adb/
+
 
 ## VNC
+
+If used with BlueStacks, it might be necessary to switch to Settings->Graphics->Graphics engine mode->Compatibility
 
 ### Android
 
