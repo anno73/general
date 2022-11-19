@@ -17,7 +17,7 @@ adb connect 127.0.0.1 BlueStacksPort
 
 ## ADB
 
-How to execute pinch-zoom gesture?
+How to execute pinch-zoom gesture? https://stackoverflow.com/questions/65378445/how-to-perform-pinch-zoom-on-a-game-using-adb-via-usb-for-android
 
 ### Pure Python ADB
 
